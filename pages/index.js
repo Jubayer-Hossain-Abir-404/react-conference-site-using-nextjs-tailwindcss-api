@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Hero from '../components/Hero';
 
 
 
@@ -11,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Conference Page" />
         <meta name="keywords" content="react, conference" />
       </Head>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Hero/>
     </>
   ); 
 }

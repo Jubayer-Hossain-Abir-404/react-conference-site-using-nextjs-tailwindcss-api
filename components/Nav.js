@@ -6,11 +6,13 @@ import Link from 'next/link';
 const Nav = () => {
     const logo = `${server}/Images/mainLogo.png`;
   return (
-    <nav className="flex justify-between items-center w-8/12 mx-auto py-6">
+    <nav className="relative flex justify-between items-center w-10/12 lg:w-8/12 mx-auto py-6 z-20">
       <div className="imageLogo">
-        <img src={logo} alt="logo" />
+        <Link href="/conferenceInfo">
+          <img src={logo} alt="logo" className="cursor-pointer" />
+        </Link>
       </div>
-      <div className="flex menu gap-8">
+      <div className="hidden lg:flex menu gap-8">
         <Link href="">About Us</Link>
         <Link href="">What We do</Link>
         <Link href="">Our Work</Link>
