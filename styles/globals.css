@@ -2,27 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
-    .heroBackgroundImage{
-        background-image: url(../public/Images/heroBackground.png);
-        width: 100%;
-        height: 1088px;
-        left: -2px;
-        top: 0px;
-        opacity: 0.35;
-    }
+  .heroBackgroundImage {
+    background-image: url(../public/Images/heroBackground.png);
+    width: 100%;
+    height: 1088px;
+    left: -2px;
+    top: 0px;
+    opacity: 0.35;
+  }
 
-    .matrixBackImage{
-        background-image: url(../public/Images/Ornament69@2x.png);
-        width: 250px;
-        height: 383px;
-        left: 0px;
-        top: 383px;
-        
-        
-        opacity: 0.4;
-        filter: blur(1px);
-        transform: matrix(1, 0, 0, -1, 0, 0);
-    }
+  .matrixBackImage {
+    background-image: url(../public/Images/Ornament69@2x.png);
+    width: 250px;
+    height: 383px;
+    left: 0px;
+    top: 383px;
+    opacity: 0.4;
+    filter: blur(1px);
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  }
+
+  .heroTitle {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 169px;
+    color: #0a142f;
+    width: 804px;
+    height: 337px;
+  }
+
+  .heroBigImage img {
+    width: 549.17px;
+    height: 559.98px;
+  }
+
+  
+  .heroDesc p {
+    
+    width: 515px;
+    height: 118px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+
+    color: #000000;
+
+    opacity: 0.8;
+  }
+
+  .heroButton{
+    padding: 16px 24px;
+    width: 293px;
+        height: 60px;
+    background: #FFC93E;
+        border-radius: 30px;
+  }
+
+  .heroSmallImage{
+    top: 0;
+  }
+  .heroSmallImage img{
+    width: 329.01px;
+        height: 419.11px;
+    
+  }
 }

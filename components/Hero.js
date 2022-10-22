@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="heroBackgroundImage absolute">
       <div className="matrixBackImage lg:block hidden bg-no-repeat">
-
+        
       </div>
     </div>
   );

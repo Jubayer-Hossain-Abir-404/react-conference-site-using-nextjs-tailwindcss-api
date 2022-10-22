@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero';
+import HeroContent from '../components/HeroContent';
 
 
 
@@ -13,6 +14,7 @@ export default function Home() {
         <meta name="keywords" content="react, conference" />
       </Head>
       <Hero/>
+      <HeroContent/>
     </>
   ); 
 }
