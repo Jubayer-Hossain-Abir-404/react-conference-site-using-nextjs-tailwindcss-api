@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="description" content="Conference Page" />
         <meta name="keywords" content="react, conference" />
       </Head>
-      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </>
   ); 
 }
