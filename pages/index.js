@@ -13,7 +13,9 @@ export default function Home() {
         <meta name="description" content="Conference Page" />
         <meta name="keywords" content="react, conference" />
       </Head>
+      {/* only the design structure part */}
       <Hero/>
+      {/* here the content is being displayed */}
       <HeroContent/>
     </>
   ); 
