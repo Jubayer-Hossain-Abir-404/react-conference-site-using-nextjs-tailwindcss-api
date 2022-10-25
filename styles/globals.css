@@ -97,6 +97,30 @@
     width: 103.6px;
       height: 100px;
   }
+
+  .eventScheduleSection h2{
+    font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 58px;
+      /* identical to box height */
+    
+    
+      color: #0A142F;
+  }
+
+  .eventScheduleSection p{
+    font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      /* identical to box height, or 200% */
+    
+    
+      color: rgba(10, 20, 47, 0.8);
+    
+      opacity: 0.8;
+  }
 }
 
 @layer components{
