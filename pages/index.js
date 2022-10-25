@@ -12,11 +12,12 @@ export default function Home() {
         <title>React Home</title>
         <meta name="description" content="Conference Page" />
         <meta name="keywords" content="react, conference" />
+        
       </Head>
       {/* only the design structure part */}
-      <Hero/>
+      <Hero />
       {/* here the content is being displayed */}
-      <HeroContent/>
+      <HeroContent />
     </>
   ); 
 }

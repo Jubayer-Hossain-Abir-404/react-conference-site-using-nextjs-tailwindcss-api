@@ -37,36 +37,40 @@
     height: 559.98px;
   }
 
-  
-  .heroDesc p {
-    
-    width: 515px;
-    height: 118px;
+  .heroTextButton p {
+    /* width: 450px; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
-    /* or 200% */
-
     color: #000000;
-
     opacity: 0.8;
   }
 
-  .heroButton{
+  .heroButton {
     padding: 16px 24px;
     width: 293px;
-        height: 60px;
-    background: #FFC93E;
-        border-radius: 30px;
+    height: 60px;
+    background: #ffc93e;
+    border-radius: 30px;
+    margin-top: 26px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0a142f;
   }
 
-  .heroSmallImage{
+  /* .heroSmallImage{
     top: 0;
-  }
-  .heroSmallImage img{
+  } */
+  .heroSmallImage img {
     width: 329.01px;
-        height: 419.11px;
-    
+    height: 419.11px;
   }
 }
