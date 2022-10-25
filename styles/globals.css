@@ -3,30 +3,30 @@
 @tailwind utilities;
 
 @layer utilities {
-  *{
+  * {
     box-sizing: border-box;
   }
 
-        ::-webkit-scrollbar {
-          width: 20px;
-        }
-    
-        /* Track */
-        ::-webkit-scrollbar-track {
-          box-shadow: inset 0 0 5px #23222259;
-          border-radius: 10px;
-        }
-    
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-          background: #D5D5D5;
-          border-radius: 8px;
-        }
-    
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-          background: #d5d5d5df;
-        }
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #23222259;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d5d5d5;
+    border-radius: 8px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d5d5d5df;
+  }
   .heroBackgroundImage {
     background-image: url(../public/Images/heroBackground.png);
     width: 100%;
@@ -47,7 +47,7 @@
     filter: blur(1px);
     /* transform: matrix(1, 0, 0, -1, 0, 0); */
   }
-  
+
   .heroTitle {
     font-weight: 700;
     /* font-size: 140px; */
@@ -99,121 +99,116 @@
     height: 419.11px;
   }
 
-  .scrollDown{
+  .scrollDown {
     font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
-      /* identical to box height */
-    
-    
-      color: #0A142F;
-    
-      transform: rotate(-90deg);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #0a142f;
+
+    transform: rotate(-90deg);
   }
 
-  .smallMobileImage{
+  .smallMobileImage {
     width: 157px;
-      height: 200px;
+    height: 200px;
   }
 
-  .mobileOrnament{
+  .mobileOrnament {
     width: 103.6px;
-      height: 100px;
+    height: 100px;
   }
 
-  .eventScheduleSection h2{
+  .eventScheduleSection h2 {
     font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 58px;
-      /* identical to box height */
-    
-    
-      color: #0A142F;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    color: #0a142f;
   }
 
-  .eventScheduleDesc{
+  .eventScheduleDesc {
     font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 40px;
-      /* identical to box height, or 200% */
-    
-    
-      color: rgba(10, 20, 47, 0.8);
-    
-      opacity: 0.8;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+
+    color: rgba(10, 20, 47, 0.8);
+
+    opacity: 0.8;
   }
 
-  .tableTitle{
+  .tableTitle {
     font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 24px;
-      text-align: center;
-    
-      color: #0A142F;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #0a142f;
   }
-  .smallDate{
+  .smallDate {
     font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
-    
-      color: #0A142F;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0a142f;
   }
-  .yellowBox{
+  .yellowBox {
     width: 162.52px;
-      height: 110px;
+    height: 110px;
   }
-  .yellowBox h4{
+  .yellowBox h4 {
     font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
-    
-      color: #725114;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #725114;
   }
 
-  .yellowBox h5{
+  .yellowBox h5 {
     font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      /* identical to box height */
-    
-    
-      color: #8B6F3B;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #8b6f3b;
   }
-  
-  .blueBox{
+
+  .blueBox {
     width: 162.52px;
-      height: 110px;
+    height: 110px;
   }
-  .blueBox h4{
+  .blueBox h4 {
     font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
-    
-      color: #111D5E;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #111d5e;
   }
 
-  .blueBox h5{
+  .blueBox h5 {
     font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      /* identical to box height */
-    
-    
-      color: #27326D;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #27326d;
   }
 }
 
-@layer components{
-  .basicContainer{
+@layer components {
+  .basicContainer {
     @apply lg:w-8/12 w-10/12 mx-auto;
   }
 }

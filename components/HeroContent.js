@@ -62,7 +62,23 @@ const HeroContent = () => {
                 ></path>
               </svg>
             </button>
-            <p className="scrollDown hidden lg:block">Scroll Down</p>
+            <p className="scrollDown hidden lg:flex items-center gap-2 cursor-pointer">
+              <svg
+                class="w-6 h-6 "
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+                ></path>
+              </svg>
+              Scroll Down
+            </p>
           </div>
         </div>
         <div className="heroBigImage w-full lg:w-4/12">

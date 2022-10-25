@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const EventSchedule = () => {
   return (
@@ -50,9 +50,7 @@ const EventSchedule = () => {
                 </td>
                 <td className="py-8 px-6 border-r-2"></td>
                 <td className="py-8 px-6 border-r-2"></td>
-                <td className="py-8 px-6 border-r-2">
-                  
-                </td>
+                <td className="py-8 px-6 border-r-2"></td>
                 <td className="py-8 px-6 border-r-2"></td>
                 <td className="py-8 px-6">
                   <p className="smallDate">07 - 08- 2022</p>
@@ -83,6 +81,7 @@ const EventSchedule = () => {
                 <td className="py-8 px-6 border-r-2"></td>
                 <td className="py-8 px-6"></td>
               </tr>
+              {/* 3rd row */}
               <tr className="bg-white border">
                 <th
                   scope="row"
@@ -115,6 +114,6 @@ const EventSchedule = () => {
       </div>
     </div>
   );
-}
+};
 
-export default EventSchedule
+export default EventSchedule;
