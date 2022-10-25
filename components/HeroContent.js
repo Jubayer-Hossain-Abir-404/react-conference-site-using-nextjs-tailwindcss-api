@@ -13,7 +13,7 @@ const HeroContent = () => {
   return (
     <div className="heroSection w-10/12  mx-auto mt-[40px] z-50">
       <div className="heroTitleSection flex flex-col">
-        <div className="w-8/12">
+        <div className="w-10/12 lg:w-8/12">
           <img
             src={blingLine}
             alt="blingLine"
