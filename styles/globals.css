@@ -25,11 +25,11 @@
 
   .heroTitle {
     font-weight: 700;
-    font-size: 140px;
-    line-height: 169px;
+    /* font-size: 140px; */
+    /* line-height: 169px; */
     color: #0a142f;
-    width: 804px;
-    height: 337px;
+    /* width: 804px;
+    height: 337px; */
   }
 
   .heroBigImage img {
