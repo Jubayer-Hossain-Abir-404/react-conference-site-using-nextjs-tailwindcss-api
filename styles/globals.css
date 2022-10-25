@@ -10,6 +10,7 @@
     left: -2px;
     top: 0px;
     opacity: 0.35;
+    background-size: cover;
   }
 
   .matrixBackImage {
@@ -22,7 +23,7 @@
     filter: blur(1px);
     /* transform: matrix(1, 0, 0, -1, 0, 0); */
   }
-
+  
   .heroTitle {
     font-weight: 700;
     /* font-size: 140px; */
@@ -32,7 +33,7 @@
     height: 337px; */
   }
 
-  .heroBigImage img {
+  .bigImage {
     width: 549.17px;
     height: 559.98px;
   }
@@ -69,8 +70,31 @@
   /* .heroSmallImage{
     top: 0;
   } */
-  .heroSmallImage img {
+  .heroSmallImage .smallImage {
     width: 329.01px;
     height: 419.11px;
+  }
+
+  .scrollDown{
+    font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+    
+    
+      color: #0A142F;
+    
+      transform: rotate(-90deg);
+  }
+
+  .smallMobileImage{
+    width: 157px;
+      height: 200px;
+  }
+
+  .mobileOrnament{
+    width: 103.6px;
+      height: 100px;
   }
 }
