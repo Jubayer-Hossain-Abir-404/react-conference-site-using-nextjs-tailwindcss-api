@@ -121,7 +121,7 @@
     height: 100px;
   }
 
-  .eventScheduleSection h2 {
+  .eventScheduleSection, .conferenceSection h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -131,7 +131,7 @@
     color: #0a142f;
   }
 
-  .eventScheduleDesc {
+  .eventScheduleDesc, .conferenceDesc {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
