@@ -98,3 +98,9 @@
       height: 100px;
   }
 }
+
+@layer components{
+  .basicContainer{
+    @apply lg:w-8/12 w-10/12 mx-auto;
+  }
+}

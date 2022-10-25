@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Nav = () => {
     const logo = `${server}/Images/mainLogo.png`;
   return (
-    <nav className="relative flex justify-between items-center w-10/12 lg:w-8/12 mx-auto py-6 z-20 mb-20">
+    <nav className="relative flex justify-between items-center basicContainer py-6 z-20 mb-20">
       <div className="imageLogo">
         <Link href="/conferenceInfo">
           <img src={logo} alt="logo" className="cursor-pointer" />
